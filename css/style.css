@@ -199,7 +199,7 @@ a:hover.pageup{
         padding-right: 15px;
     }
     .entry{
-        height: 350px;
+        height: 400px;
     }
 
     h1{
@@ -278,7 +278,7 @@ a:hover.pageup{
     font-weight: 100;
     font-size: 13px;
     line-height: 10px;
-    letter-spacing: 1;  
+    letter-spacing: 0;  
 }
 .pageup.shown {
     display: none;
