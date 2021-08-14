@@ -34,15 +34,16 @@ h1{
 
 h2{
     color: #3f9ebd;
-    font-size: 55px;
+    font-size: 50px;
     letter-spacing:  0px;
     text-align: center;
 }
 
 img{
-    width: 600px;
+    width: 29vw;
+    margin-right: 10px;
     height: 485px;
-
+    border-radius: 7%;
    }
 
 .entry_text{
@@ -50,15 +51,16 @@ img{
     padding-bottom: 10px;
     font-weight: 900;
     color: rgb(251 252 238);
-    font-size: 31px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 55px;
     letter-spacing: 9px;
-    text-shadow: 2px 2px 2px rgb(2 2 2), 2px 2px 2px rgb(2 2 2), 2px 2px 2px rgb(2 2 2), 2px 2px 2px rgb(2 2 2);
+    text-align: center;
+    text-shadow: 5px 2px 2px rgb(2 2 2), -3px 2px 2px rgb(2 2 2), 2px 2px 2px rgb(2 2 2), 2px 2px 2px rgb(2 2 2);
 
 }
 
 .owl{
-    height: 700px;
+    height: 650px;
     background-color: #e9f6fd;
     background-image: linear-gradient(45deg, #e2f6fd, #fdf0e9);
     padding-top: 0px;
@@ -66,12 +68,12 @@ img{
 }
 
 .owl_text{
-    padding-top: 5px;
+    padding-top: 0px;
     padding-bottom: 10px;
     font-weight: 900;
     color: #f28700;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 21px;
+    line-height: 24px;
     letter-spacing: 4px;
     text-align: center;
 }
@@ -79,11 +81,11 @@ img{
 
 .wrapper{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .dachshund{
-    height: 700px;
+    height: 650px;
     background-color: #fdf0e9;
     background-image: linear-gradient(45deg, #fdf0e9 , #e2f6fd);
     padding-top: 0px;
@@ -91,18 +93,18 @@ img{
 }
 
 .dachshund_text{
-    padding-top: 5px;
+    padding-top: 0px;
     padding-bottom: 10px;
     font-weight: 900;
     color: #f28700;
-    font-size: 19px;
-    line-height: 35px;
-    letter-spacing: 3px;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 2px;
     text-align: center;
 }
 
 .bear{
-    height: 700px;
+    height: 650px;
     background-color: #e9f6fd;
     background-image: linear-gradient(45deg, #e2f6fd, #fdf0e9);
     padding-top: 0px;
@@ -110,18 +112,18 @@ img{
 }
 
 .bear_text{
-    padding-top: 5px;
+    padding-top: 0px;
     padding-bottom: 10px;
     font-weight: 900;
     color: #f28700;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 21px;
+    line-height: 24px;
     letter-spacing: 3px;
     text-align: center; 
 }
 
 .chimpanzee{
-    height: 700px;
+    height: 650px;
     background-color: #fdf0e9;
     background-image: linear-gradient(45deg, #fdf0e9 , #e2f6fd);
     padding-top: 0px;
@@ -129,13 +131,13 @@ img{
 }
 
 .chimpanzee_text{
-    padding-top: 5px;
+    padding-top: 0px;
     padding-bottom: 10px;
     font-weight: 900;
     color: #f28700;
-    font-size: 19px;
-    line-height: 35px;
-    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.5px;
     text-align: center;
 }
 
@@ -188,3 +190,103 @@ a:hover.pageup{
 .pageup.shown {
     display: block;
 } 
+
+@media screen and (max-width: 700px){
+    .container {
+        width: auto;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .entry{
+        height: 325px;
+    }
+
+    h1{
+        
+        font-size: 30px;
+        padding-top: 20px;
+        letter-spacing:3px;
+    }
+
+    .wrapper{
+        flex-direction: column;
+    }
+    
+    h2{
+        font-size: 25px;  
+    }
+
+    img{
+        width: 100%;
+        height: 430px;
+        border-radius: 7%;
+        margin: 10px;
+       }
+
+       .entry_text{
+        padding-top: 30px;
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0;
+    }
+
+    .owl{
+        height: 1050px;
+    }
+
+    .owl_text{
+        padding-top: 10px;
+        font-weight: 100;
+        font-size: 10px;
+        line-height: 21px;
+        letter-spacing: 0;
+    }
+
+    .dachshund{
+        height: 1100px;
+   }
+    
+    .dachshund_text{
+        padding-top: 10px;
+        font-weight: 100;
+        font-size: 10px;
+        line-height: 21px;
+        letter-spacing: 1;
+    }
+
+    .bear{
+        height: 1150px;
+    }
+
+    .bear_text{
+        padding-top: 10px;
+        font-weight: 100;
+        font-size: 10px;
+        line-height: 21px;
+        letter-spacing: 1;
+    }
+.chimpanzee{
+    height: 1100px;
+}
+
+.chimpanzee_text{
+    padding-top: 10px;
+        font-weight: 100;
+        font-size: 10px;
+        line-height: 21px;
+        letter-spacing: 1;
+}
+
+.footer_info{
+    padding-top: 0px;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 10px;
+    letter-spacing: 1;  
+}
+.pageup.shown {
+    display: none;
+} 
+}
